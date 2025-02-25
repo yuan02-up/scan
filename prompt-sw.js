@@ -2168,6 +2168,6 @@ class NavigationRoute extends Route {
 self.addEventListener("message", (event) => {
   if (event.data && event.data.type === "SKIP_WAITING") self.skipWaiting();
 });
-precacheAndRoute([{"revision":null,"url":"assets/index-Cuq2Igt3.js"},{"revision":null,"url":"assets/index-oUhE9xRt.css"},{"revision":null,"url":"assets/workbox-window.prod.es5-B9K5rw8f.js"},{"revision":"a07edede5a8748d55d54ff8205ed9b34","url":"index.html"},{"revision":"7cc871d352c1b61e1fdc2ad441d0cfa4","url":"manifest.webmanifest"}]);
+precacheAndRoute([{"revision":null,"url":"assets/index-CjvqywF1.js"},{"revision":null,"url":"assets/index-Db8AEa8p.css"},{"revision":null,"url":"assets/workbox-window.prod.es5-B9K5rw8f.js"},{"revision":"93b1183c7de7dac988e18c88deb34dd2","url":"index.html"},{"revision":"aae7d4c78d75178ac82f8e7cecd035a0","url":"manifest.webmanifest"}]);
 cleanupOutdatedCaches();
 registerRoute(new NavigationRoute(createHandlerBoundToURL("index.html")));
